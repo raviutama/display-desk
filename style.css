@@ -47,13 +47,13 @@ p{
 .barOverflow{ /* Wraps the rotating .bar */
   position: relative;
   overflow: hidden; /* Comment this line to understand the trick */
-  width: 300px; height: 150px; /* Half circle (overflow) */
+  width: 272px; height: 136px; /* Half circle (overflow) */
   margin-bottom: -14px; /* bring the numbers up */
 }
 .bar{
   position: absolute;
   bottom: 0; left: 0;
-  width: 300px; height: 300px; /* full circle! */
+  width: 272px; height: 272px; /* full circle! */
   border-radius: 50%;
   box-sizing: border-box;
   border: 10px solid #eee;     /* half gray, */
