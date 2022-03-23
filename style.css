@@ -11,7 +11,9 @@ p{
 .centered {
   position: absolute;
   top: 50%;
+  left: 28%;
   width: 210px;
+  transform: translate(-50%, -50%);
 }
 .progres{
   position: relative;
