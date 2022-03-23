@@ -10,8 +10,8 @@ p{
 }
 .centered {
   position: absolute;
-  top: 50%;
-  left: 28%;
+  top: 64%;
+  left: 48%;
   width: 210px;
   transform: translate(-50%, -50%);
 }
