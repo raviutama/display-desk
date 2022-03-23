@@ -11,7 +11,7 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body  onload="initClock()">
 
     <div class="d-flex flex-column justify-content-center align-items-center" style="min-height: 96vh;">
         <h5 class="text-white font-weight-normal m-0">Meeting 1</h5>
@@ -22,24 +22,24 @@
             </div>
         </div>
         <div class="centered mx-5">
-            <div class="d-flex justify-content-around text-white mb-5">
+            <div class="d-flex justify-content-around text-white mb-4">
                 <div class="my-auto text-center">
                     <div class="datetime">
-                        <h3 class="time">
+                        <h6 class="time m-0">
                             <span id="hour">00</span> :
                             <span id="minutes">00</span>
                             <span id="seconds" style="display: none;">00</span>
                             <span id="period">AM</span>
-                        </h3>
-                        <h6 class="date">
+                        </h6>
+                        <p class="date m-0">
                             <span id="dayname">Day</span>,
                             <span id="month">Month</span>
                             <span id="daynum">00</span>
                             <span id="year" style="display: none;">Year</span>
-                        </h6>
+                        </p>
                     </div>
                 </div>
-                <div class="border my-auto" style="height: 70px;"></div>
+                <div class="border my-auto" style="height: 40px;"></div>
                 <div class="scrollbar my-auto" id="style-1">
                     <p class="m-0">11:00 - 12:00 Ravi Ham</p>
                     <p class="m-0">11:00 - 12:00 Ravi Ham</p>
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-around text-white">
-                <button type="button" class="btn btn-secondary" style="background-color: #303030; color: #22DF41; width: 10vw;">Verify</button>
+                <button type="button" class="btn btn-secondary btn-sm" style="background-color: #303030; color: #22DF41; width: 20vw;">Verify</button>
             </div>
         </div>
     </div>

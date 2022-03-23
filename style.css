@@ -1,14 +1,17 @@
 body{
   background-color: #1B1A17;
 }
+p{
+  font-size: 10px;
+}
 .text-title{
-  font-size: 5rem;
+  font-size: 4rem;
   color: #22DF41;
 }
 .centered {
   position: absolute;
-  top: 46%;
-  width: 365px;
+  top: 50%;
+  width: 210px;
 }
 .progres{
   position: relative;
@@ -21,7 +24,7 @@ body{
 {
 	float: left;
 	overflow-y: scroll;
-  height: 70px;
+  height: 40px;
 }
 #style-1::-webkit-scrollbar-track
 {
@@ -44,13 +47,13 @@ body{
 .barOverflow{ /* Wraps the rotating .bar */
   position: relative;
   overflow: hidden; /* Comment this line to understand the trick */
-  width: 460px; height: 230px; /* Half circle (overflow) */
+  width: 300px; height: 150px; /* Half circle (overflow) */
   margin-bottom: -14px; /* bring the numbers up */
 }
 .bar{
   position: absolute;
   bottom: 0; left: 0;
-  width: 460px; height: 460px; /* full circle! */
+  width: 300px; height: 300px; /* full circle! */
   border-radius: 50%;
   box-sizing: border-box;
   border: 10px solid #eee;     /* half gray, */
